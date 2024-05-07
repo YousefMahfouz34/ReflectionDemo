@@ -1,0 +1,14 @@
+D:\Projects\ReflectionDemo\ReflectionDemo\bin\Debug\net8.0\ReflectionDemo.exe
+D:\Projects\ReflectionDemo\ReflectionDemo\bin\Debug\net8.0\ReflectionDemo.deps.json
+D:\Projects\ReflectionDemo\ReflectionDemo\bin\Debug\net8.0\ReflectionDemo.runtimeconfig.json
+D:\Projects\ReflectionDemo\ReflectionDemo\bin\Debug\net8.0\ReflectionDemo.dll
+D:\Projects\ReflectionDemo\ReflectionDemo\bin\Debug\net8.0\ReflectionDemo.pdb
+D:\Projects\ReflectionDemo\ReflectionDemo\obj\Debug\net8.0\ReflectionDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\ReflectionDemo\ReflectionDemo\obj\Debug\net8.0\ReflectionDemo.AssemblyInfoInputs.cache
+D:\Projects\ReflectionDemo\ReflectionDemo\obj\Debug\net8.0\ReflectionDemo.AssemblyInfo.cs
+D:\Projects\ReflectionDemo\ReflectionDemo\obj\Debug\net8.0\ReflectionDemo.csproj.CoreCompileInputs.cache
+D:\Projects\ReflectionDemo\ReflectionDemo\obj\Debug\net8.0\ReflectionDemo.dll
+D:\Projects\ReflectionDemo\ReflectionDemo\obj\Debug\net8.0\refint\ReflectionDemo.dll
+D:\Projects\ReflectionDemo\ReflectionDemo\obj\Debug\net8.0\ReflectionDemo.pdb
+D:\Projects\ReflectionDemo\ReflectionDemo\obj\Debug\net8.0\ReflectionDemo.genruntimeconfig.cache
+D:\Projects\ReflectionDemo\ReflectionDemo\obj\Debug\net8.0\ref\ReflectionDemo.dll
