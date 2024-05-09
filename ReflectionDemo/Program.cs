@@ -74,25 +74,38 @@ namespace ReflectionDemo
             #endregion
 
             #region invoke members
-            Console.WriteLine("MemmberInfo");
-            MemberInfo[] members= typeof(Empolyee).GetMembers();
-            foreach (var member in members) 
-            {
-                Console.WriteLine(member);
-            }
-            Console.WriteLine("properityInfo");
-            PropertyInfo[] properties= typeof(Empolyee).GetProperties();
-            foreach (var property in properties)
-            {
-                Console.WriteLine(property);
-            }
-            Console.WriteLine("FiledInfo");
-            FieldInfo[] fields = typeof(Empolyee).GetFields();
-            foreach (var field in fields)
-            {
-                Console.WriteLine(field);
-            }
+            //Console.WriteLine("MemmberInfo");
+            //MemberInfo[] members= typeof(Empolyee).GetMembers();
+            //foreach (var member in members) 
+            //{
+            //    Console.WriteLine(member);
+            //}
+            //Console.WriteLine("properityInfo");
+            //PropertyInfo[] properties= typeof(Empolyee).GetProperties();
+            //foreach (var property in properties)
+            //{
+            //    Console.WriteLine(property);
+            //}
+            //Console.WriteLine("FiledInfo");
+            //FieldInfo[] fields = typeof(Empolyee).GetFields();
+            //foreach (var field in fields)
+            //{
+            //    Console.WriteLine(field);
+            //}
+            //Generic 
+            PropertyInfo unbound = typeof(IEnumerator<>).GetProperty("Current");            Console.WriteLine(unbound);            PropertyInfo closed = typeof(IEnumerator<int>).GetProperty("Current");            Console.WriteLine(closed);
 
+
+            #endregion
+            #region AssemblyReflection
+            var path = @"D:\testasssamply\MOE.dll";
+            var asembly = Assembly.LoadFile(path);
+            var typs= asembly.GetTypes();
+            foreach (var t in typs)
+            {
+                Console.WriteLine(t.Name);
+                
+            }
 
             #endregion
 
